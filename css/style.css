@@ -65,3 +65,15 @@
 .card-footer{
     border-top: none;
 }
+
+#Subscribe{
+    height: 20em;
+}
+
+#Subscribe h3{
+    text-transform: uppercase;
+}
+
+#Subscribe h6{
+    color: gray;
+}
