@@ -21,3 +21,36 @@
     cursor: pointer;
     border:none
 }
+
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat-1{
+    background-color: orange;
+    background-image: linear-gradient(to bottom right, #ff9c35, #ffd019);
+}
+
+.cat-2{
+    background-color: orchid;
+    background-image: linear-gradient(to bottom right, #ff5398, #ff1872);
+}
+
+.cat-3{
+    background-color: blue;
+    background-image: linear-gradient(to bottom right, #4289ff, #3f07f8);
+}
+
+.row h1{
+    color: white;
+    font-size: 40px;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.categories .row{
+    margin-top: 2rem;;
+}
