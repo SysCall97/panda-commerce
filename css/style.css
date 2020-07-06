@@ -1,5 +1,5 @@
 .container-fluid{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     width: 90%;
 }
 
@@ -25,6 +25,7 @@
 .cat-1, .cat-2, .cat-3{
     padding: 10px 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .cat-1{
@@ -42,7 +43,7 @@
     background-image: linear-gradient(to bottom right, #4289ff, #3f07f8);
 }
 
-.row h1{
+.categories h1{
     color: white;
     font-size: 40px;
 }
@@ -53,4 +54,14 @@
 
 .categories .row{
     margin-top: 2rem;;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.card-footer{
+    border-top: none;
 }
